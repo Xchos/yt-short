@@ -9,7 +9,8 @@ A command-line tool that summarizes YouTube videos using the Groq API.
 To install the YouTube Video Summarizer, run the following command:
 
 ```bash
-brew install yt-short
+brew install yt-dlp ffmpeg
+npm install -g yt-short
 ```
 
 **Post-Installation Configuration**

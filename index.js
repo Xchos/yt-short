@@ -104,7 +104,7 @@ yargs
         builder: (yargs) => {
             yargs.option('apiKey', {
                 type: 'string',
-                describe: `Groq API key, [${readApiKey()}]`,
+                describe: `Groq API key`,
                 demandOption: false,
             });
             yargs.option('lang', {
